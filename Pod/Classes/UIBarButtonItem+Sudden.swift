@@ -1,8 +1,9 @@
 //
-//  Copyright © 2016 Lopsae.
+//  Copyright © 2016 LopSae.
 //
 
 import UIKit
+
 
 public extension UIBarButtonItem {
 
