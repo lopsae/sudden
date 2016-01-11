@@ -4,15 +4,16 @@
 
 import UIKit
 
-extension UIBarButtonItem {
-	convenience init(title: String, style: UIBarButtonItemStyle, action: VoidClosure) {
-		self.init()
-		self.title = title
-		self.style = style
+public extension UIBarButtonItem {
 
+	public convenience init(title: String, style: UIBarButtonItemStyle, action: VoidClosure) {
 		let closure = ClosureSelector(closure: action)
+		self.init(title: title,
+			style: style,
+			target: closure,
+			action: closure.selector()
+		)
 		WeakKeeper.keep(closure, owner: self)
-		self.target = closure
-		self.action = closure.selector()
 	}
+
 }
