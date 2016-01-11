@@ -4,34 +4,34 @@
 
 import Foundation
 
-public typealias EmptyBlockType = () -> Void
+public typealias VoidClosure = () -> Void
 
 public class BlockSelector {
 
-	var block: EmptyBlockType?
+	var closure: VoidClosure?
 
 
-	public init(block: EmptyBlockType?) {
-		self.block = block
+	public init(closure: VoidClosure?) {
+		self.closure = closure
 	}
 
 
 	public convenience init() {
-		self.init(block: nil)
+		self.init(closure: nil)
 	}
 
 
 	@objc
-	func performBlock() {
-		guard let block = block else {
+	func performClosure() {
+		guard let closure = closure else {
 			return
 		}
-		block()
+		closure()
 	}
 
 
 	public func selector() -> Selector {
-		return "performBlock"
+		return "performClosure"
 	}
 
 }

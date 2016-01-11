@@ -4,16 +4,16 @@
 
 
 extension UIGestureRecognizer {
-	convenience init(action: EmptyBlockType) {
+	convenience init(action: VoidClosure) {
 		self.init()
 		addAction(action)
 	}
 
 
-	func addAction(action: EmptyBlockType) {
-		let block = BlockSelector(block: action)
-		WeakKeeper.keep(block, weakObject: self)
-		addTarget(block, action: block.selector())
+	func addAction(action: VoidClosure) {
+		let closure = BlockSelector(closure: action)
+		WeakKeeper.keep(closure, weakObject: self)
+		addTarget(closure, action: closure.selector())
 	}
 	
 }
