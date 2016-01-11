@@ -4,18 +4,19 @@
 
 import Foundation
 
-typealias EmptyBlockType = () -> Void
+public typealias EmptyBlockType = () -> Void
 
-class BlockSelector {
+public class BlockSelector {
 
 	var block: EmptyBlockType?
 
-	init(block: EmptyBlockType?) {
+
+	public init(block: EmptyBlockType?) {
 		self.block = block
 	}
 
 
-	convenience init() {
+	public convenience init() {
 		self.init(block: nil)
 	}
 
@@ -29,7 +30,7 @@ class BlockSelector {
 	}
 
 
-	func selector() -> Selector {
+	public func selector() -> Selector {
 		return "performBlock"
 	}
 

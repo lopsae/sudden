@@ -11,11 +11,12 @@
 /// 
 /// WeakKeeper can be instructed to clean all keepsakes for which their weak
 /// references have expired, leaving the keepsake free to be disposed.
-class WeakKeeper {
+public class WeakKeeper {
 
 	static private var keepers = [Keeper]()
 
-	static func keep(keepsake: AnyObject, weakObject: AnyObject?) {
+
+	public static func keep(keepsake: AnyObject, weakObject: AnyObject?) {
 		let keeper = Keeper(keepsake: keepsake, weakObject: weakObject)
 		keepers.append(keeper)
 	}

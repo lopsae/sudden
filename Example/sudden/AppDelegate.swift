@@ -3,6 +3,7 @@
 //
 
 import UIKit
+import sudden
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,12 +19,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		window!.tintColor = UIColor.redColor()
 		window!.backgroundColor = UIColor.darkGrayColor()
 
+		let block = BlockSelector() {
+			[unowned self] in
+			self.viewController.view.backgroundColor = UIColor.greenColor()
+		}
+
 		let rightBarButton = UIBarButtonItem(
 			title: "demo",
 			style: .Plain,
-			target: self,
-			action: "changeViewColor"
+			target: block,
+			action: block.selector()
 		)
+		WeakKeeper.keep(block, weakObject: rightBarButton)
 
 		viewController = UIViewController()
 		viewController.navigationItem.title = "sudden"
@@ -40,8 +47,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
-	func changeViewColor() {
-		viewController.view.backgroundColor = UIColor.greenColor()
-	}
 }
 
