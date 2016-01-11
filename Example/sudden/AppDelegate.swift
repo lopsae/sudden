@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 			target: closure,
 			action: closure.selector()
 		)
-		WeakKeeper.keep(closure, weakObject: rightBarButton)
+		WeakKeeper.keep(closure, owner: rightBarButton)
 
 		viewController = UIViewController()
 		viewController.navigationItem.title = "sudden"

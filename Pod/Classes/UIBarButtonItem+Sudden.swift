@@ -11,7 +11,7 @@ extension UIBarButtonItem {
 		self.style = style
 
 		let closure = ClosureSelector(closure: action)
-		WeakKeeper.keep(closure, weakObject: self)
+		WeakKeeper.keep(closure, owner: self)
 		self.target = closure
 		self.action = closure.selector()
 	}

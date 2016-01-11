@@ -12,7 +12,7 @@ extension UIGestureRecognizer {
 
 	func addAction(action: VoidClosure) {
 		let closure = ClosureSelector(closure: action)
-		WeakKeeper.keep(closure, weakObject: self)
+		WeakKeeper.keep(closure, owner: self)
 		addTarget(closure, action: closure.selector())
 	}
 	
