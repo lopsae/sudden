@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		window!.tintColor = UIColor.redColor()
 		window!.backgroundColor = UIColor.darkGrayColor()
 
-		let block = BlockSelector() {
+		let closure = ClosureSelector() {
 			[unowned self] in
 			self.viewController.view.backgroundColor = UIColor.greenColor()
 		}
@@ -27,10 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		let rightBarButton = UIBarButtonItem(
 			title: "demo",
 			style: .Plain,
-			target: block,
-			action: block.selector()
+			target: closure,
+			action: closure.selector()
 		)
-		WeakKeeper.keep(block, weakObject: rightBarButton)
+		WeakKeeper.keep(closure, weakObject: rightBarButton)
 
 		viewController = UIViewController()
 		viewController.navigationItem.title = "sudden"

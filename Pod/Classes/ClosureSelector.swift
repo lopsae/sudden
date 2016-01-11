@@ -6,9 +6,9 @@ import Foundation
 
 public typealias VoidClosure = () -> Void
 
-public class BlockSelector {
+public class ClosureSelector {
 
-	var closure: VoidClosure?
+	public var closure: VoidClosure?
 
 
 	public init(closure: VoidClosure?) {
@@ -23,10 +23,7 @@ public class BlockSelector {
 
 	@objc
 	func performClosure() {
-		guard let closure = closure else {
-			return
-		}
-		closure()
+		closure?()
 	}
 
 
