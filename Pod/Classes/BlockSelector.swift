@@ -1,9 +1,5 @@
 //
-//  BlockSelector.swift
-//  abrupt
-//
-//  Created by Maic Lopez on 12/4/15.
-//  Copyright © 2015 Maic Lopez. All rights reserved.
+//  Copyright © 2016 Lopsae.
 //
 
 import Foundation

@@ -1,9 +1,5 @@
 //
-//  WeakKeeper.swift
-//  abrupt
-//
-//  Created by Maic Lopez on 12/10/15.
-//  Copyright © 2015 Maic Lopez. All rights reserved.
+//  Copyright © 2016 Lopsae.
 //
 
 

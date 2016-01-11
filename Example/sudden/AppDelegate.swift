@@ -1,9 +1,5 @@
 //
-//  AppDelegate.swift
-//  sudden
-//
-//  Created by Maic Lopez Saenz on 01/10/2016.
-//  Copyright (c) 2016 Maic Lopez Saenz. All rights reserved.
+//  Copyright © 2016 Lopsae.
 //
 
 import UIKit

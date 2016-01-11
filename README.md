@@ -1,6 +1,6 @@
 # sudden
 
-[![CI Status](http://img.shields.io/travis/Maic Lopez Saenz/sudden.svg?style=flat)](https://travis-ci.org/Maic Lopez Saenz/sudden)
+[![CI Status](http://img.shields.io/travis/lopsae/sudden.svg?style=flat)](https://travis-ci.org/lopsae/sudden)
 [![Version](https://img.shields.io/cocoapods/v/sudden.svg?style=flat)](http://cocoapods.org/pods/sudden)
 [![License](https://img.shields.io/cocoapods/l/sudden.svg?style=flat)](http://cocoapods.org/pods/sudden)
 [![Platform](https://img.shields.io/cocoapods/p/sudden.svg?style=flat)](http://cocoapods.org/pods/sudden)
@@ -22,7 +22,7 @@ pod "sudden"
 
 ## Author
 
-Maic Lopez Saenz, maic@lopsae.com
+LopSae - Maic López Sáenz, maic@lopsae.com
 
 ## License
 
