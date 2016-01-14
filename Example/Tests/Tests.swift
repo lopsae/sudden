@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import sudden
+import Sudden
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {

@@ -1,12 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'sudden_Example', :exclusive => true do
-  pod "sudden", :path => "../"
+target 'Sudden_Example', :exclusive => true do
+  pod "Sudden", :path => "../"
 end
 
-target 'sudden_Tests', :exclusive => true do
-  pod "sudden", :path => "../"
+target 'Sudden_Tests', :exclusive => true do
+  pod "Sudden", :path => "../"
 
   pod 'Quick', '~> 0.8.0'
   pod 'Nimble', '3.0.0'

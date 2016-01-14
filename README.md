@@ -1,9 +1,9 @@
-# sudden
+# Sudden
 
 [![CI Status](http://img.shields.io/travis/lopsae/sudden.svg?style=flat)](https://travis-ci.org/lopsae/sudden)
-[![Version](https://img.shields.io/cocoapods/v/sudden.svg?style=flat)](http://cocoapods.org/pods/sudden)
-[![License](https://img.shields.io/cocoapods/l/sudden.svg?style=flat)](http://cocoapods.org/pods/sudden)
-[![Platform](https://img.shields.io/cocoapods/p/sudden.svg?style=flat)](http://cocoapods.org/pods/sudden)
+[![Version](https://img.shields.io/cocoapods/v/Sudden.svg?style=flat)](http://cocoapods.org/pods/Sudden)
+[![License](https://img.shields.io/cocoapods/l/Sudden.svg?style=flat)](http://cocoapods.org/pods/Sudden)
+[![Platform](https://img.shields.io/cocoapods/p/Sudden.svg?style=flat)](http://cocoapods.org/pods/Sudden)
 
 ## Usage
 
@@ -13,17 +13,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-sudden is available through [CocoaPods](http://cocoapods.org). To install
+Sudden is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "sudden"
+pod "Sudden"
 ```
 
 ## Author
 
-LopSae - Maic López Sáenz, maic@lopsae.com
+Maic López Sáenz (LopSae), maic@lopsae.com
 
 ## License
 
-sudden is available under the MIT license. See the LICENSE file for more info.
+Sudden is available under the MIT license. See the LICENSE file for more info.

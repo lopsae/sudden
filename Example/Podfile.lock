@@ -10,17 +10,17 @@ PODS:
     - Nimble
     - Quick
   - Quick (0.8.0)
-  - sudden (0.1.0)
+  - Sudden (0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
   - Nimble (= 3.0.0)
   - Nimble-Snapshots
   - Quick (~> 0.8.0)
-  - sudden (from `../`)
+  - Sudden (from `../`)
 
 EXTERNAL SOURCES:
-  sudden:
+  Sudden:
     :path: ../
 
 SPEC CHECKSUMS:
@@ -28,6 +28,6 @@ SPEC CHECKSUMS:
   Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
   Nimble-Snapshots: ab41dd737dcd33a0b0cb005a30465fef70b7207a
   Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
-  sudden: 3ff1a1be99723b24f12bab5563aeb4c15f76ee9d
+  Sudden: b018de1527ba59cb6f862d6854b7c8b310b4115b
 
 COCOAPODS: 0.39.0

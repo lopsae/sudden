@@ -3,7 +3,7 @@
 //
 
 import UIKit
-import sudden
+import Sudden
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

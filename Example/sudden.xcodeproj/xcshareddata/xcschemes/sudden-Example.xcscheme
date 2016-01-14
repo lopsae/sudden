@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "sudden_Example.app"
-               BlueprintName = "sudden_Example"
-               ReferencedContainer = "container:sudden.xcodeproj">
+               BuildableName = "Sudden_Example.app"
+               BlueprintName = "Sudden_Example"
+               ReferencedContainer = "container:Sudden.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "sudden_Tests.xctest"
-               BlueprintName = "sudden_Tests"
-               ReferencedContainer = "container:sudden.xcodeproj">
+               BuildableName = "Sudden_Tests.xctest"
+               BlueprintName = "Sudden_Tests"
+               ReferencedContainer = "container:Sudden.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "sudden_Tests.xctest"
-               BlueprintName = "sudden_Tests"
-               ReferencedContainer = "container:sudden.xcodeproj">
+               BuildableName = "Sudden_Tests.xctest"
+               BlueprintName = "Sudden_Tests"
+               ReferencedContainer = "container:Sudden.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "sudden_Example.app"
-            BlueprintName = "sudden_Example"
-            ReferencedContainer = "container:sudden.xcodeproj">
+            BuildableName = "Sudden_Example.app"
+            BlueprintName = "Sudden_Example"
+            ReferencedContainer = "container:Sudden.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "sudden_Example.app"
-            BlueprintName = "sudden_Example"
-            ReferencedContainer = "container:sudden.xcodeproj">
+            BuildableName = "Sudden_Example.app"
+            BlueprintName = "Sudden_Example"
+            ReferencedContainer = "container:Sudden.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -99,9 +99,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "sudden_Example.app"
-            BlueprintName = "sudden_Example"
-            ReferencedContainer = "container:sudden.xcodeproj">
+            BuildableName = "Sudden_Example.app"
+            BlueprintName = "Sudden_Example"
+            ReferencedContainer = "container:Sudden.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

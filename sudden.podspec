@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint sudden.podspec' to ensure this is a
+# Be sure to run `pod lib lint Sudden.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,15 +7,15 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "sudden"
+  s.name             = "Sudden"
   s.version          = "0.1.0"
-  s.summary          = "A short description of sudden."
+  s.summary          = "A short description of Sudden."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+#   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description      = <<-DESC
                        DESC
 
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*', 'Pod/Extensions/**/*'
   s.resource_bundles = {
-    'sudden' => ['Pod/Assets/*.png']
+    'Sudden' => ['Pod/Assets/*.png']
   }
 
   # s.frameworks = 'UIKit', 'MapKit'
