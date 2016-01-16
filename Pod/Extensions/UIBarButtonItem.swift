@@ -11,13 +11,12 @@ public extension UIBarButtonItem {
 		style: UIBarButtonItemStyle,
 		action: VoidClosure
 	) {
-		let closure = ClosureSelector(closure: action)
 		self.init(title: title,
 			style: style,
-			target: closure,
-			action: closure.selector()
+			target: nil,
+			action: nil
 		)
-		WeakKeeper.keep(closure, owner: self)
+		closure = action
 	}
 
 
@@ -62,4 +61,30 @@ public extension UIBarButtonItem {
 		WeakKeeper.keep(closure, owner: self)
 	}
 
+
+	// TODO: document that setting this value to null no-op if the target
+	// is not a ClosureSelector
+	var closure: VoidClosure? {
+		get {
+			guard let closureContainer =  target as? ClosureSelector
+			else { return nil }
+			return closureContainer.closure
+		}
+
+		set {
+			if newValue == nil {
+				if target is ClosureSelector {
+					target = nil
+					action = nil
+				}
+			} else {
+				let closureContainer = ClosureSelector(closure: newValue)
+				WeakKeeper.keep(closureContainer, owner: self)
+				target = closureContainer
+				action = closureContainer.selector()
+			}
+		}
+	}
+
 }
+
